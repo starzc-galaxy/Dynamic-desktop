@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>动态壁纸设置工具</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: rgb(0, 0, 0);
+
+}
+QPushButton:pressed{
+ background-color:rgb(125, 125, 125);  
+ border-style:inset;
+padding-left:3px;
+padding-top:3px; 
+}
+
+QPushButton#pushButton_3{
+background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);
+font: 75 12pt &quot;微软雅黑&quot;;
+border:1px solid red;
+border-radius:5px;
+}
+QLabel#label_2{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;微软雅黑&quot;;
+}
+QLabel#label{
+background-color: rgb(0, 0, 0);
+	color: rgb(255, 0, 0);
+font: 75 12pt &quot;微软雅黑&quot;;
+}
+
+QGroupBox
+{
+border: 2px solid red;
+border-radius:5px;
+margin-top:2ex;
+font-family:楷体;
+font:bold 28px;
+ 
+}
+QGroupBox::title
+{
+subcontrol-origin:margin;
+subcontrol-position:top center;
+padding:0 3px;
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(255, 170, 0);
+}
+QPushButton#pushButton{
+background-color: rgb(0, 170, 0);
+border-radius:5px;
+}
+QPushButton#pushButton_2{
+background-color: rgb(255, 85, 0);
+border-radius:5px;
+}
+QMessageBox{
+background-color: #f1f1f1;
+}
+QMessageBox&gt;QLabel{
+color:black;
+background-color: #f1f1f1;
+}
+QMessageBox QPushButton{ 
+    background-color:#bebebe;  
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>431</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>431</width>
+      <height>261</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>431</width>
+      <height>261</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>预览</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>411</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>等待视频......</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>312</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>运用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消壁纸</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>运用</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>5</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ctrl+Q 退出</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
