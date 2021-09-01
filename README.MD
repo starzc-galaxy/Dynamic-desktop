@@ -9,4 +9,3 @@ windows 动态壁纸设置工具
 * 电脑动态壁纸原理说明
   > 请参考[这个链接](https://blog.csdn.net/bjbz_cxy/article/details/79893134)，讲解的比较详细
 ![效果](https://github.com/starzc-galaxy/Dynamic-desktop/blob/master/1630408420(1).png)
-![效果](https://github.com/starzc-galaxy/Dynamic-desktop/blob/master/1630408420(1).png)
